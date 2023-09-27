@@ -30,6 +30,7 @@ a:hover {
 	overflow:  hidden ;
 	padding: 10px ;
 	color:  cornflowerblue ;
+  background-image: url("media/brown-dirt-background.jpg");
 }
 	#logo {
 		position: relative ;
@@ -81,7 +82,7 @@ a:hover {
 		padding: 2em 1.5em ;
 	    font-family: Gill Sans, Verdana ;
 		height: 150px ;
-	    background-color: blueviolet ;
+	  background-color: blueviolet ;
 		color:  mediumpurple ;
 	}
 		#description-container p {
