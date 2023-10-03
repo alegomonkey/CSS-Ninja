@@ -35,6 +35,11 @@ a:hover {
 	#logo {
 		position: relative ;
 		height: 95px ;
+    background-image: url("media/Grassy.jpg");
+    background-position: center;
+    background-size: 80%;
+    opacity: 0.9;
+    border-radius: 30px;
 		background-color:  aquamarine ;
 		color:  turquoise ;
 	}
@@ -46,11 +51,13 @@ a:hover {
 	    width: 400px ;
 		background-color: palevioletred ;
 		color:  salmon ;
+    display:none;
 	}
 	.global-navigation {
 	    position: relative ;
-	    height: 25px ;
+	    height: 40px ;
 	    width: 100% ;
+    margin-bottom: 1em;
 		background-color: teal ;
 		color:  aqua ;
 		font-size:  20px ;
@@ -62,7 +69,7 @@ a:hover {
 		    width: 16% ;
 		    margin-left: 2% ;
 			padding:  .3em;
-		    border: solid 1px rgb(30%, 40%, 8%) ;
+		    border: solid 3px green ;
 		    text-align: center ;
 			font-size:  14px ;
 			background-color:  olive ;
@@ -77,13 +84,13 @@ a:hover {
 		}
 	/* ________ Description ________ */
 	#description-container {
-	    position: relative;
-	    width: 46% ;
+	  position: relative;
+	  width: 90% ;
 		padding: 2em 1.5em ;
-	    font-family: Gill Sans, Verdana ;
-		height: 150px ;
-	  background-color: blueviolet ;
-		color:  mediumpurple ;
+	  font-family: Gill Sans, Verdana ;
+    font-size: 0.5em;
+    color:  lightyellow ;
+	  background-color: saddlebrown ;
 	}
 		#description-container p {
 			margin-top: 0em ;
@@ -91,18 +98,19 @@ a:hover {
 		}
 		#description-container em {
 			font-style:  normal ;
-			color:  rgb(70%, 70%, 20%)
+			color:  green;
+      text-shadow: lightyellow 1px 1px 3px;
 		}
 /* ________ Links to Other Projects ________ */
 	#other-projects {
 		position:  relative ;
 		margin-bottom: 20px ;
 		padding:  4px ;
-		border: dotted 1px;
+		border: dotted 3px;
 		font-size:  20px ;
 		text-align: right ;
-		background-color: orange ;
-		color:  orangered ;
+		background-color: sandybrown ;
+		color:  chocolate ;
 	}
 		.other-project, .other-project-over {
 			position:  relative ;
@@ -115,7 +123,7 @@ a:hover {
 			padding-top: .4em;
 			background-repeat: no-repeat;
 			background-color: rgb(0%,2%,3%) ;
-			color:  rgb(40%, 35%, 10%) ;
+			color:  azure;
 			font-size:  15px ;
 			text-align:  center ;
 		}
@@ -125,6 +133,6 @@ a:hover {
 		}
 .footer { /* When nesting divs inside a relatively positioned div, this footer stretches the border and background to fit. */
 	clear: both ;
-	background-color:  red ;
+	background-color:  sandybrown ;
 	color: maroon ;
 }
